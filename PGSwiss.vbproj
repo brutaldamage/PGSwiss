@@ -94,10 +94,11 @@
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>PG_Swiss_Temporary_Key.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -315,7 +316,6 @@
     </None>
     <AppDesigner Include="My Project\" />
     <None Include="PGSwiss_1_TemporaryKey.pfx" />
-    <None Include="PGSwiss_2_TemporaryKey.pfx" />
     <None Include="PGSwiss_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -406,7 +406,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="PG_Swiss_Temporary_Key.pfx" />
     <None Include="Resources\pgswiss_small.png" />
   </ItemGroup>
   <ItemGroup>
